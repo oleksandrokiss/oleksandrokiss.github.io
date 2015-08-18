@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+ <form action="task2.html">
+     Name
+     <br/>
+     <input type="text" name="Name"/>
+     <br/>
+     <br/>
+     Email
+     <br/>
+     <input type="email" name="Email"/>
+     <br/>
+     <br/>
+     Sex
+     <br/>
+     <input type="radio" name="Sex" value="Male"/>Male
+     <input type="radio" name="Sex" value="Female"/>Female
+     <br/>
+     <br/>
+     Current status
+     <br/>
+     <input type="checkbox" name="Occupation" value="Student"/>Student
+     <br/>
+     <input type="checkbox" name="Occupation" value="Employed"/>Employed
+     <br/>
+     <input type="checkbox" name="Occupation" value="Unemployed"/>Unemployed
+     <br/>
+     <br/>
+    Month and Year of birth
+     <br/>
+        <select name="months">
+            <option value="june">June</option>
+            <option value="july">July</option>
+            <option value="august">August</option>
+            <option value="november">November</option>
+        </select>
+        <select name="year">
+            <option value="1972">1972</option>
+            <option value="1982">1982</option>
+            <option value="1992">1992</option>
+        </select>
+     <br/>
+     <br/>
+    Skills and Technologies
+     <br/>
+     <select multiple="multiple" size="10" name="assets">
+         <optgroup label="Tech Skills">
+            <option value="html">HTML</option>
+             <option value="css">CSS</option>
+             <option value="js">Javascript</option>
+             <option value="git">git</option>
+         </optgroup>
+         <optgroup label="Soft Skills">
+             <option value="time">Time management</option>
+             <option value="activity">Proactivity</option>
+             <option value="team">Teamwork</option>
+             <option value="leader">Leadership</option>
+         </optgroup>
+
+     </select>
+    <br/>
+     <br/>
+     Photo
+     <br/>
+        <input type="file" name="photo"/>
+     <br/>
+     <br/>
+     Comments
+     <br/>
+     <textarea rows="4" cols="25" name="Message">
+     </textarea>
+     <br/>
+     <br/>
+     <input type="submit" value="Save" name="save"/>
+
+ </form>
+</body>
+</html>
