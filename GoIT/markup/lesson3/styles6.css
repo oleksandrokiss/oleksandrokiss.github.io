@@ -49,6 +49,7 @@ label[for="blue"]{
 #green:checked ~ .green {
     display:none;
                  }
+/*hiding checkboxes*/
 input {
     display:none;
 }
