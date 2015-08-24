@@ -1,0 +1,54 @@
+/*making values look like buttons*/
+span.red {
+    background-color:red;
+    color:white;
+    font-weight:bold;
+    border-radius:5px;
+    padding:2px;
+}
+span.green {
+    background-color:green;
+    color:white;
+    font-weight:bold;
+    border-radius:5px;
+    padding:2px;
+}
+span.blue {
+    background-color:blue;
+    color:white;
+    font-weight:bold;
+    border-radius:5px;
+    padding:2px;
+}
+/*painting triggers, setting borders*/
+label[for="red"]{
+    color: red;
+    text-decoration: underline;
+    font-weight:bold;
+    margin-right: 35px;
+}
+label[for="green"]{
+    color:green;
+    text-decoration: underline;
+    font-weight:bold;
+    margin-right: 35px;
+}
+label[for="blue"]{
+    color:blue;
+    text-decoration: underline;
+    font-weight:bold;
+    margin-right: 25px;
+}
+/*setting condition if id x is checked class x after it is not displayed*/
+#red:checked ~.red {
+    display:none;
+             }
+#blue:checked ~ .blue {
+    display:none;
+                }
+#green:checked ~ .green {
+    display:none;
+                 }
+input {
+    display:none;
+}
