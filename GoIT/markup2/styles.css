@@ -1,0 +1,26 @@
+.text {
+    margin:0 auto;
+    width:30%;
+    font-size:20px;
+}
+.center {
+    display:block;
+    height:180px;
+    width:180px;
+    margin:0 auto;
+}
+.name {
+    font-weight:700;
+    font-size:35px;
+    text-align:center;
+}
+.chapter {
+    border-bottom:1px solid gray;
+    padding:20px 10px;
+}
+.contacts {
+    margin:20px 0;
+}
+.chapter p,.contacts p {
+    margin:5px;
+}
