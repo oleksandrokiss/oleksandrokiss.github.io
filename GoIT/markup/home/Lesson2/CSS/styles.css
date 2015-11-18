@@ -44,6 +44,9 @@ li.nav:hover {
     float: left;
     width: 25%;
 }
+.container {
+    float:right;
+}
 .selectors {
     border: 1px solid grey;
     width: 240px;
@@ -69,7 +72,7 @@ li.selectors:hover {
 
 .frame {
     border: 1px solid gray;
-    width:171%;
+    width:640px;
     height: 400px;
 }
 .frame img {
@@ -79,8 +82,8 @@ li.selectors:hover {
 }
 p {
     display: block;
-    width: 169%;
-    padding: 2%;
+    width: 600px;
+    padding: 10px;
     text-align: justify;
 
 }
