@@ -64,7 +64,7 @@ li.selectors:hover {
     width: 70%;
 }
 .content {
-    margin-left: 42%;
+    margin-left: 280px;
 }
 
 .frame {
@@ -106,5 +106,8 @@ p {
 }
 
 .staff {
-    margin-left: 80%;
+    float: right;
+    position: relative;
+    top: -65px;
+    left: -15px;
 }
