@@ -61,7 +61,6 @@ body {
 }
 .menu {
     background-color: #343434;
-    height: 30px;
 }
 .menu li {
     float: left;
@@ -70,7 +69,25 @@ body {
     font-size: 14px;
     width: 120px;
     cursor: pointer;
+    position: relative;
+    z-index: 1;
+    background-color: #343434;
 }
 .menu li a {
     color: white;
+}
+.menu li ul {
+    background-color:#343434;
+    position: absolute;
+    width: 140px;
+    border: 1px solid #000;
+    display: none;
+}
+.menu li:hover ul {
+    display:block;
+}
+
+.footer {
+    clear: both;
+    text-align: center;
 }
