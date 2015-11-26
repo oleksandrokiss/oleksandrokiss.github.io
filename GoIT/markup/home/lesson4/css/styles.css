@@ -17,13 +17,13 @@ body {
 }
 .wrapper {
     width: 1000px;
-    background-color: white;
     margin: 0 auto;
     overflow: hidden;
     box-shadow: 0 0 30px #969696;
 }
 .header {
     height: 177px;
+    background-color: #ffffff;
 }
 .logo {
     width: 275px;
@@ -70,26 +70,27 @@ body {
 }
 .menu {
     background-color: #343434;
-    box-shadow: 0 0 30px #969696;
+    width: 100%;
+    height: 30px;
 }
 .menu li {
     float: left;
     line-height: 30px;
-    border: 1px solid transparent;
-    font-size: 14px;
-    width: 123px;
+    /*border: 1px solid transparent;*/
+    width: 140px;
     cursor: pointer;
     position: relative;
     z-index: 1;
-    background-color: #343434;
 }
 .menu li a {
     color: white;
+    padding: 5px;
+    font-size: 14px;
 }
 .menu li ul {
     background-color:#343434;
     position: absolute;
-    width: 123px;
+    width: 140px;
     border: 1px solid #000;
     display: none;
 }
