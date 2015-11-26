@@ -52,9 +52,10 @@ body {
 }
 .countries li {
     display: inline-block;
-    padding-top: 25px;
+    padding-top: 15px;
 }
 .countries li a {
+    display: block;
     font-size: 10px;
     text-decoration: underline;
     padding-top: 10px;
@@ -83,8 +84,8 @@ body {
     z-index: 1;
 }
 .menu li a {
+    display: block;
     color: white;
-    padding: 5px;
     font-size: 14px;
 }
 .menu li ul {
