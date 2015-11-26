@@ -20,6 +20,7 @@ body {
     background-color: white;
     margin: 0 auto;
     overflow: hidden;
+    box-shadow: 0 0 30px #969696;
 }
 .header {
     height: 177px;
@@ -126,6 +127,7 @@ body {
     clear: both;
     text-align: center;
     height: 32px;
+    line-height: 32px;
     color: white;
     font-size: 12px;
 }
