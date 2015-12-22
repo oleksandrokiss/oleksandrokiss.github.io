@@ -1,4 +1,5 @@
 var i;
+var ind;
 var arr = [];
 for (i=0; i<5; i++) {
     arr.push (prompt('Введите любое имя',''));
@@ -6,8 +7,14 @@ for (i=0; i<5; i++) {
 var name = prompt('Введите имя пользователя, пожалуйста!','');
 for (i=0; i<arr.length; i++) {
     if(arr[i] == name) {
-        alert(name+', Вы успешно вошли!');
+        ind = 1;
+        break;
     } else {
-        alert('Error!');
+        ind = 0;
     }
+}
+if(ind==1) {
+    alert(name+', Вы успешно вошли!');
+} else {
+    alert('Error!');
 }
